@@ -82,19 +82,19 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
   margin-bottom: 5px;
 }
 
-@media (max-width: 800px) {
-  .card-resizeimg {
-    height: 200px;
-    width: auto;
-  }
-  .card-content {
-    min-height: 250px;
+.card, .medium {
+  max-height: 350px;
+}
+
+@media (min-width: 600px) {
+  .medium {
+    min-height: 420px;
   }
 }
 
-@media (min-width: 801px) {
-  .card-resizeimg {
-    width: auto;
-    height: 250px;
-  }
+@media (min-width: 600px) and (max-width: 800px) {
+
+  .medium .card-content {
+    min-height: 60%;
+     }
 }
