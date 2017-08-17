@@ -78,8 +78,12 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
   top: 0;
 }
 
-.table-of-contents li {
+.table-of-contents li, .side-nav li {
   margin-bottom: 5px;
+}
+
+.side-nav ul {
+  margin-top: 10px;
 }
 
 @media (min-width: 600px) {
