@@ -47,6 +47,13 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
   font-weight: bold !important;
 }
 
+.card-action a{
+  color: #f44336 !important;
+}
+.card-action a:hover {
+  color: #ff8a80 !important;
+}
+
 /* borders for testimonial pictures */
 .lr-border { border-left: 2px solid red; }
 .rg-border { border-right: 2px solid green;}
