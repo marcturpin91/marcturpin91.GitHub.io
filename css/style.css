@@ -2,9 +2,9 @@ body {
 background-color: #fafafa;
 }
 
-.thin {
-  font-weight: 300;
-}
+.thin { font-weight: 300; }
+
+.justify { text-align: justify; }
 
 .cover-overlay {
 background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
@@ -36,6 +36,18 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
   padding-right: 60px;
 }
 
+.section-title {
+  font-weight: 300;
+  font-size: 3.2rem;
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+.card-title {
+  font-weight: bold !important;
+}
+
+/* borders for testimonial pictures */
 .lr-border { border-left: 2px solid red; }
 .rg-border { border-right: 2px solid green;}
 .lb-border { border-left: 2px solid blue;}
@@ -87,14 +99,17 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 }
 
 @media (min-width: 600px) {
-  .medium {
-    min-height: 420px;
+
+  .card.medium .card-content {
+    min-height: fit-content !important;
+    overflow: visible;
   }
-}
 
-@media (min-width: 600px) and (max-width: 800px) {
+  .card.medium {
+    padding-bottom: 20px !important;
+  }
 
-  .medium .card-content {
-    min-height: 60%;
-     }
+  .section-title {
+    font-size: 3.8rem;
+  }
 }
