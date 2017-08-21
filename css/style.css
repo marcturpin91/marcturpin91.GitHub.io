@@ -49,6 +49,8 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 
 .card-title {
   font-weight: bold !important;
+  font-size: 1.4rem !important;
+  line-height: 1.6rem !important;
 }
 
 .card-action a{
@@ -110,6 +112,10 @@ background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
 }
 
 @media (min-width: 600px) {
+
+  .card-title {
+    font-size: 1.6rem !important;
+  }
 
   .card.medium .card-content {
     min-height: fit-content !important;
