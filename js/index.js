@@ -6,7 +6,7 @@
     });
 
 $.extend($.lazyLoadXT, {
-  edgeY:  200,
+  edgeY:  400,
   srcAttr: 'data-src'
 });
 
